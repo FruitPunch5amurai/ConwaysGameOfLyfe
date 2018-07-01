@@ -1,0 +1,4 @@
+﻿  MainGame.cpp
+f:\conwaysgameoflife\conwaysgol\conwaysgol\maingame.cpp(19): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+f:\conwaysgameoflife\conwaysgol\conwaysgol\maingame.cpp(83): warning C4244: 'argument': conversion from 'Sint32' to 'float', possible loss of data
+  ConwaysGoL.vcxproj -> F:\ConwaysGameOfLife\ConwaysGoL\Debug\ConwaysGoL.exe

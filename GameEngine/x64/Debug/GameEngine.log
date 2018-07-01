@@ -1,0 +1,9 @@
+﻿  InputManager.cpp
+f:\conwaysgameoflife\conwaysgol\gameengine\inputmanager.cpp(43): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  ResourceManager.cpp
+f:\conwaysgameoflife\conwaysgol\gameengine\resourcemanager.cpp(58): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  Sprite.cpp
+f:\conwaysgameoflife\conwaysgol\gameengine\sprite.cpp(32): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  Window.cpp
+f:\conwaysgameoflife\conwaysgol\gameengine\window.cpp(67): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  Generating Code...
