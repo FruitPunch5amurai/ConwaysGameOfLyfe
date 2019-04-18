@@ -23,7 +23,7 @@
     <ProjectGuid>{A9ED1FD8-A4A8-4263-A835-C6862B236852}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>ConwaysGoL</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -72,8 +72,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>$(SolutionDir)BasicLogger;$(SolutionDir)GameEngine;F:\ConwaysGameOfLife\ConwaysGoL\Deps\include;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)Debug;F:\ConwaysGameOfLife\ConwaysGoL\Deps\libs;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)BasicLogger;$(SolutionDir)GameEngine;$(SolutionDir)Deps\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Debug;$(SolutionDir)Deps\libs;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>

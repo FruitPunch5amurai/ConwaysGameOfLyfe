@@ -29,7 +29,8 @@ namespace ConwaysGoL
 	{
 		int indexX = (posX - ((posX / tileWidth))*PADDING_BETWEEN_TILES) / tileWidth;
 		int indexY = (posY - ((posY / tileHeight))*PADDING_BETWEEN_TILES) / tileHeight;
-		cells[(indexY*width) + indexX].state = cells[(indexY*width) + indexX].state == 1 ? 0 : 1;
+		int index = ((indexY + GRID_BORDER_OFFSET)*(DESIRED_NUMTILES_X + (GRID_BORDER_OFFSET * 2))) + (indexX + GRID_BORDER_OFFSET);
+		cells[index].state = cells[index].state == 1 ? 0 : 1;
 	}
 	Grid GenerateGrid(const int screenWidth, const int screenHeight)
 	{

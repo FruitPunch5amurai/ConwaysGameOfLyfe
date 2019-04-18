@@ -31,7 +31,7 @@ namespace ConwaysGoL
 		GameEngine::Sprite*			sprite;
 
 		Grid tileGrid;
-
+		bool isPaused = false;
 		void			Init();
 		void			Loop();
 		void			ProcessInput();

@@ -52,8 +52,10 @@ namespace ConwaysGoL
 			ProcessInput();
 			if (SDL_GetTicks() - _lastUpdateTime >= UPDATE_FREQUENCY)
 			{
-				blog(Debug, "Updating Grid");
-				tileGrid.UpdateCells();
+				if (_inputManager.isKeyPressed(SDLK_SPACE))
+					isPaused = !isPaused;
+				if(!isPaused)
+					tileGrid.UpdateCells();
 				_lastUpdateTime = SDL_GetTicks();
 			}
 			Draw();
@@ -81,6 +83,12 @@ namespace ConwaysGoL
 				break;
 			case SDL_MOUSEMOTION:
 				_inputManager.setMouseCoords(event.motion.x, event.motion.y);
+				break;
+			case SDL_KEYDOWN:
+				_inputManager.KeyPress(event.key.keysym.sym);
+				break;
+			case SDL_KEYUP:
+				_inputManager.KeyRelease(event.key.keysym.sym);
 				break;
 			}
 		}

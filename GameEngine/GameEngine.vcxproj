@@ -37,7 +37,7 @@
     <ProjectGuid>{7D78E366-6375-458F-8122-3A355D2435D7}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>GameEngine</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -86,8 +86,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>F:\ConwaysGameOfLife\ConwaysGoL\Deps\include;$(SolutionDir)BasicLogger;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)Debug;F:\ConwaysGameOfLife\ConwaysGoL\Deps\libs;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)Deps\include;$(SolutionDir)BasicLogger;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Debug;$(SolutionDir)Deps\libs;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>

@@ -15,6 +15,7 @@ namespace ConwaysGoL
 		Grid();
 		~Grid();
 
+
 		Tile cells[TRUE_NUMTILES_X*TRUE_NUMTILES_Y];
 		int width,height;
 		int tileWidth, tileHeight;
